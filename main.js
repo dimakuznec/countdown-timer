@@ -8,7 +8,7 @@ const countdown = document.querySelector('#countdown');
 const preloader = document.querySelector('#preloader');
 
 // Делаем расчеты
-const currentYear = new Date().getFullYear(); // 2020
+const currentYear = new Date().getFullYear(); // 2022
 const nextYear = new Date(`January 01 ${currentYear + 1} 00:00:00`);
 
 // Устанавливаем год на страницу
